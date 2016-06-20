@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B73E8541D188FC300B5C178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8531D188FC300B5C178 /* AppDelegate.swift */; };
+		2B73E8561D188FC300B5C178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8551D188FC300B5C178 /* ViewController.swift */; };
+		2B73E8591D188FC300B5C178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B73E8571D188FC300B5C178 /* Main.storyboard */; };
+		2B73E85B1D188FC300B5C178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B73E85A1D188FC300B5C178 /* Assets.xcassets */; };
+		2B73E85E1D188FC300B5C178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B73E85C1D188FC300B5C178 /* LaunchScreen.storyboard */; };
+		2B73E8691D188FC400B5C178 /* KaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8681D188FC400B5C178 /* KaptureTests.swift */; };
+		2B73E8741D188FC400B5C178 /* KaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8731D188FC400B5C178 /* KaptureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B73E8651D188FC400B5C178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B73E8481D188FC300B5C178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B73E84F1D188FC300B5C178;
+			remoteInfo = Kapture;
+		};
+		2B73E8701D188FC400B5C178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B73E8481D188FC300B5C178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B73E84F1D188FC300B5C178;
+			remoteInfo = Kapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B73E8501D188FC300B5C178 /* Kapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B73E8531D188FC300B5C178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B73E8551D188FC300B5C178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B73E8581D188FC300B5C178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B73E85A1D188FC300B5C178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B73E85D1D188FC300B5C178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B73E85F1D188FC300B5C178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B73E8641D188FC400B5C178 /* KaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B73E8681D188FC400B5C178 /* KaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaptureTests.swift; sourceTree = "<group>"; };
+		2B73E86A1D188FC400B5C178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B73E86F1D188FC400B5C178 /* KaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B73E8731D188FC400B5C178 /* KaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaptureUITests.swift; sourceTree = "<group>"; };
+		2B73E8751D188FC400B5C178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B73E84D1D188FC300B5C178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B73E8611D188FC300B5C178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B73E86C1D188FC400B5C178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B73E8471D188FC300B5C178 = {
+			isa = PBXGroup;
+			children = (
+				2B73E8521D188FC300B5C178 /* Kapture */,
+				2B73E8671D188FC400B5C178 /* KaptureTests */,
+				2B73E8721D188FC400B5C178 /* KaptureUITests */,
+				2B73E8511D188FC300B5C178 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B73E8511D188FC300B5C178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B73E8501D188FC300B5C178 /* Kapture.app */,
+				2B73E8641D188FC400B5C178 /* KaptureTests.xctest */,
+				2B73E86F1D188FC400B5C178 /* KaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B73E8521D188FC300B5C178 /* Kapture */ = {
+			isa = PBXGroup;
+			children = (
+				2B73E8531D188FC300B5C178 /* AppDelegate.swift */,
+				2B73E8551D188FC300B5C178 /* ViewController.swift */,
+				2B73E8571D188FC300B5C178 /* Main.storyboard */,
+				2B73E85A1D188FC300B5C178 /* Assets.xcassets */,
+				2B73E85C1D188FC300B5C178 /* LaunchScreen.storyboard */,
+				2B73E85F1D188FC300B5C178 /* Info.plist */,
+			);
+			path = Kapture;
+			sourceTree = "<group>";
+		};
+		2B73E8671D188FC400B5C178 /* KaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B73E8681D188FC400B5C178 /* KaptureTests.swift */,
+				2B73E86A1D188FC400B5C178 /* Info.plist */,
+			);
+			path = KaptureTests;
+			sourceTree = "<group>";
+		};
+		2B73E8721D188FC400B5C178 /* KaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B73E8731D188FC400B5C178 /* KaptureUITests.swift */,
+				2B73E8751D188FC400B5C178 /* Info.plist */,
+			);
+			path = KaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B73E84F1D188FC300B5C178 /* Kapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B73E8781D188FC400B5C178 /* Build configuration list for PBXNativeTarget "Kapture" */;
+			buildPhases = (
+				2B73E84C1D188FC300B5C178 /* Sources */,
+				2B73E84D1D188FC300B5C178 /* Frameworks */,
+				2B73E84E1D188FC300B5C178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kapture;
+			productName = Kapture;
+			productReference = 2B73E8501D188FC300B5C178 /* Kapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B73E8631D188FC300B5C178 /* KaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B73E87B1D188FC400B5C178 /* Build configuration list for PBXNativeTarget "KaptureTests" */;
+			buildPhases = (
+				2B73E8601D188FC300B5C178 /* Sources */,
+				2B73E8611D188FC300B5C178 /* Frameworks */,
+				2B73E8621D188FC300B5C178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B73E8661D188FC400B5C178 /* PBXTargetDependency */,
+			);
+			name = KaptureTests;
+			productName = KaptureTests;
+			productReference = 2B73E8641D188FC400B5C178 /* KaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B73E86E1D188FC400B5C178 /* KaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B73E87E1D188FC400B5C178 /* Build configuration list for PBXNativeTarget "KaptureUITests" */;
+			buildPhases = (
+				2B73E86B1D188FC400B5C178 /* Sources */,
+				2B73E86C1D188FC400B5C178 /* Frameworks */,
+				2B73E86D1D188FC400B5C178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B73E8711D188FC400B5C178 /* PBXTargetDependency */,
+			);
+			name = KaptureUITests;
+			productName = KaptureUITests;
+			productReference = 2B73E86F1D188FC400B5C178 /* KaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B73E8481D188FC300B5C178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Valerie Chen";
+				TargetAttributes = {
+					2B73E84F1D188FC300B5C178 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2B73E8631D188FC300B5C178 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2B73E84F1D188FC300B5C178;
+					};
+					2B73E86E1D188FC400B5C178 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2B73E84F1D188FC300B5C178;
+					};
+				};
+			};
+			buildConfigurationList = 2B73E84B1D188FC300B5C178 /* Build configuration list for PBXProject "Kapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B73E8471D188FC300B5C178;
+			productRefGroup = 2B73E8511D188FC300B5C178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B73E84F1D188FC300B5C178 /* Kapture */,
+				2B73E8631D188FC300B5C178 /* KaptureTests */,
+				2B73E86E1D188FC400B5C178 /* KaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B73E84E1D188FC300B5C178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B73E85E1D188FC300B5C178 /* LaunchScreen.storyboard in Resources */,
+				2B73E85B1D188FC300B5C178 /* Assets.xcassets in Resources */,
+				2B73E8591D188FC300B5C178 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B73E8621D188FC300B5C178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B73E86D1D188FC400B5C178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B73E84C1D188FC300B5C178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B73E8561D188FC300B5C178 /* ViewController.swift in Sources */,
+				2B73E8541D188FC300B5C178 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B73E8601D188FC300B5C178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B73E8691D188FC400B5C178 /* KaptureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B73E86B1D188FC400B5C178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B73E8741D188FC400B5C178 /* KaptureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B73E8661D188FC400B5C178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B73E84F1D188FC300B5C178 /* Kapture */;
+			targetProxy = 2B73E8651D188FC400B5C178 /* PBXContainerItemProxy */;
+		};
+		2B73E8711D188FC400B5C178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B73E84F1D188FC300B5C178 /* Kapture */;
+			targetProxy = 2B73E8701D188FC400B5C178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B73E8571D188FC300B5C178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B73E8581D188FC300B5C178 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B73E85C1D188FC300B5C178 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B73E85D1D188FC300B5C178 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B73E8761D188FC400B5C178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B73E8771D188FC400B5C178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B73E8791D188FC400B5C178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Kapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B73E87A1D188FC400B5C178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Kapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B73E87C1D188FC400B5C178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.KaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kapture.app/Kapture";
+			};
+			name = Debug;
+		};
+		2B73E87D1D188FC400B5C178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.KaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kapture.app/Kapture";
+			};
+			name = Release;
+		};
+		2B73E87F1D188FC400B5C178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.KaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kapture;
+			};
+			name = Debug;
+		};
+		2B73E8801D188FC400B5C178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.KaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B73E84B1D188FC300B5C178 /* Build configuration list for PBXProject "Kapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B73E8761D188FC400B5C178 /* Debug */,
+				2B73E8771D188FC400B5C178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B73E8781D188FC400B5C178 /* Build configuration list for PBXNativeTarget "Kapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B73E8791D188FC400B5C178 /* Debug */,
+				2B73E87A1D188FC400B5C178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B73E87B1D188FC400B5C178 /* Build configuration list for PBXNativeTarget "KaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B73E87C1D188FC400B5C178 /* Debug */,
+				2B73E87D1D188FC400B5C178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B73E87E1D188FC400B5C178 /* Build configuration list for PBXNativeTarget "KaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B73E87F1D188FC400B5C178 /* Debug */,
+				2B73E8801D188FC400B5C178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B73E8481D188FC300B5C178 /* Project object */;
+}
