@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B303C431D1B4ABC00223F96 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B303C421D1B4ABC00223F96 /* DetailsViewController.swift */; };
+		2B5AEFDE1D18BD2000F298B6 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5AEFDD1D18BD2000F298B6 /* CaptureViewController.swift */; };
 		2B73E8541D188FC300B5C178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8531D188FC300B5C178 /* AppDelegate.swift */; };
 		2B73E8561D188FC300B5C178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8551D188FC300B5C178 /* ViewController.swift */; };
 		2B73E8591D188FC300B5C178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B73E8571D188FC300B5C178 /* Main.storyboard */; };
@@ -14,6 +16,14 @@
 		2B73E85E1D188FC300B5C178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B73E85C1D188FC300B5C178 /* LaunchScreen.storyboard */; };
 		2B73E8691D188FC400B5C178 /* KaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8681D188FC400B5C178 /* KaptureTests.swift */; };
 		2B73E8741D188FC400B5C178 /* KaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8731D188FC400B5C178 /* KaptureUITests.swift */; };
+		2B73E8821D18927900B5C178 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8811D18927900B5C178 /* LoginViewController.swift */; };
+		2B73E8841D189A4500B5C178 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8831D189A4500B5C178 /* HomeViewController.swift */; };
+		2B73E8881D18A8B400B5C178 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8871D18A8B400B5C178 /* PhotoCell.swift */; };
+		2B73E88A1D18A99B00B5C178 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8891D18A99B00B5C178 /* ProfileViewController.swift */; };
+		2BB790FC1D19F7C8004194E6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB790FB1D19F7C8004194E6 /* Post.swift */; };
+		9A08D3563180FBD2307C9EB8 /* Pods_KaptureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308740BC94587C3E88BE4AB5 /* Pods_KaptureUITests.framework */; };
+		A3BD3C8EE315446F87DE1B7E /* Pods_KaptureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA21763E81AD22BE461B551 /* Pods_KaptureTests.framework */; };
+		E80F458A8FB79198195A7328 /* Pods_Kapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA260776F2D3C8062FD728E /* Pods_Kapture.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B303C421D1B4ABC00223F96 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		2B5AEFDD1D18BD2000F298B6 /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
 		2B73E8501D188FC300B5C178 /* Kapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B73E8531D188FC300B5C178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B73E8551D188FC300B5C178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,20 @@
 		2B73E86F1D188FC400B5C178 /* KaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B73E8731D188FC400B5C178 /* KaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaptureUITests.swift; sourceTree = "<group>"; };
 		2B73E8751D188FC400B5C178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B73E8811D18927900B5C178 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B73E8831D189A4500B5C178 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2B73E8871D18A8B400B5C178 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		2B73E8891D18A99B00B5C178 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2BB790FB1D19F7C8004194E6 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		308740BC94587C3E88BE4AB5 /* Pods_KaptureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaptureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F55E2A8F71AE6C07E60350 /* Pods-KaptureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaptureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaptureTests/Pods-KaptureTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EA21763E81AD22BE461B551 /* Pods_KaptureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaptureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0A1EDC9EC45A762E4ADC6A /* Pods-KaptureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaptureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaptureUITests/Pods-KaptureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E48CFBB805F5C4676CF7661 /* Pods-KaptureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaptureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaptureTests/Pods-KaptureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0701B64A4C8D28E6493DCE6 /* Pods-KaptureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaptureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaptureUITests/Pods-KaptureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAA260776F2D3C8062FD728E /* Pods_Kapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F670C9177F27E6BB27C03E0D /* Pods-Kapture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapture.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kapture/Pods-Kapture.release.xcconfig"; sourceTree = "<group>"; };
+		FB7C882568F18D309B02CD67 /* Pods-Kapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kapture/Pods-Kapture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80F458A8FB79198195A7328 /* Pods_Kapture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BD3C8EE315446F87DE1B7E /* Pods_KaptureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A08D3563180FBD2307C9EB8 /* Pods_KaptureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				2B73E8671D188FC400B5C178 /* KaptureTests */,
 				2B73E8721D188FC400B5C178 /* KaptureUITests */,
 				2B73E8511D188FC300B5C178 /* Products */,
+				F7A5FBAEB8788A971025F1AE /* Pods */,
+				99494AE79A0F1DAD62C5EB3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				2B73E8531D188FC300B5C178 /* AppDelegate.swift */,
-				2B73E8551D188FC300B5C178 /* ViewController.swift */,
 				2B73E8571D188FC300B5C178 /* Main.storyboard */,
+				2B73E88B1D18A9A200B5C178 /* View Controllers */,
+				2B73E88C1D18A9B500B5C178 /* Views */,
+				2BB790FB1D19F7C8004194E6 /* Post.swift */,
 				2B73E85A1D188FC300B5C178 /* Assets.xcassets */,
 				2B73E85C1D188FC300B5C178 /* LaunchScreen.storyboard */,
 				2B73E85F1D188FC300B5C178 /* Info.plist */,
@@ -125,6 +158,50 @@
 			path = KaptureUITests;
 			sourceTree = "<group>";
 		};
+		2B73E88B1D18A9A200B5C178 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B73E8551D188FC300B5C178 /* ViewController.swift */,
+				2B73E8811D18927900B5C178 /* LoginViewController.swift */,
+				2B73E8831D189A4500B5C178 /* HomeViewController.swift */,
+				2B73E8891D18A99B00B5C178 /* ProfileViewController.swift */,
+				2B5AEFDD1D18BD2000F298B6 /* CaptureViewController.swift */,
+				2B303C421D1B4ABC00223F96 /* DetailsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2B73E88C1D18A9B500B5C178 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B73E8871D18A8B400B5C178 /* PhotoCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		99494AE79A0F1DAD62C5EB3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAA260776F2D3C8062FD728E /* Pods_Kapture.framework */,
+				5EA21763E81AD22BE461B551 /* Pods_KaptureTests.framework */,
+				308740BC94587C3E88BE4AB5 /* Pods_KaptureUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7A5FBAEB8788A971025F1AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C882568F18D309B02CD67 /* Pods-Kapture.debug.xcconfig */,
+				F670C9177F27E6BB27C03E0D /* Pods-Kapture.release.xcconfig */,
+				9E48CFBB805F5C4676CF7661 /* Pods-KaptureTests.debug.xcconfig */,
+				40F55E2A8F71AE6C07E60350 /* Pods-KaptureTests.release.xcconfig */,
+				E0701B64A4C8D28E6493DCE6 /* Pods-KaptureUITests.debug.xcconfig */,
+				5F0A1EDC9EC45A762E4ADC6A /* Pods-KaptureUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B73E8781D188FC400B5C178 /* Build configuration list for PBXNativeTarget "Kapture" */;
 			buildPhases = (
+				62FCB8C5DA998ACA08A0F9DE /* [CP] Check Pods Manifest.lock */,
 				2B73E84C1D188FC300B5C178 /* Sources */,
 				2B73E84D1D188FC300B5C178 /* Frameworks */,
 				2B73E84E1D188FC300B5C178 /* Resources */,
+				0B14BF85F9040D1579E8B152 /* [CP] Embed Pods Frameworks */,
+				7A524AD393325E3CB46CADCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B73E87B1D188FC400B5C178 /* Build configuration list for PBXNativeTarget "KaptureTests" */;
 			buildPhases = (
+				2C746818BF85965AB36726F1 /* [CP] Check Pods Manifest.lock */,
 				2B73E8601D188FC300B5C178 /* Sources */,
 				2B73E8611D188FC300B5C178 /* Frameworks */,
 				2B73E8621D188FC300B5C178 /* Resources */,
+				BBC0FF987C54528151843EBD /* [CP] Embed Pods Frameworks */,
+				B9299C19E5B498A7102555B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B73E87E1D188FC400B5C178 /* Build configuration list for PBXNativeTarget "KaptureUITests" */;
 			buildPhases = (
+				FE254BCED12C9890F9A74393 /* [CP] Check Pods Manifest.lock */,
 				2B73E86B1D188FC400B5C178 /* Sources */,
 				2B73E86C1D188FC400B5C178 /* Frameworks */,
 				2B73E86D1D188FC400B5C178 /* Resources */,
+				4CF705B65ADF7B219350A3B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +336,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B14BF85F9040D1579E8B152 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kapture/Pods-Kapture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C746818BF85965AB36726F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CF705B65ADF7B219350A3B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaptureUITests/Pods-KaptureUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62FCB8C5DA998ACA08A0F9DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A524AD393325E3CB46CADCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kapture/Pods-Kapture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9299C19E5B498A7102555B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaptureTests/Pods-KaptureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC0FF987C54528151843EBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaptureTests/Pods-KaptureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE254BCED12C9890F9A74393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B73E84C1D188FC300B5C178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B73E88A1D18A99B00B5C178 /* ProfileViewController.swift in Sources */,
+				2B5AEFDE1D18BD2000F298B6 /* CaptureViewController.swift in Sources */,
+				2B303C431D1B4ABC00223F96 /* DetailsViewController.swift in Sources */,
+				2B73E8821D18927900B5C178 /* LoginViewController.swift in Sources */,
+				2BB790FC1D19F7C8004194E6 /* Post.swift in Sources */,
+				2B73E8881D18A8B400B5C178 /* PhotoCell.swift in Sources */,
 				2B73E8561D188FC300B5C178 /* ViewController.swift in Sources */,
 				2B73E8541D188FC300B5C178 /* AppDelegate.swift in Sources */,
+				2B73E8841D189A4500B5C178 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +612,7 @@
 		};
 		2B73E8791D188FC400B5C178 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7C882568F18D309B02CD67 /* Pods-Kapture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kapture/Info.plist;
@@ -408,6 +624,7 @@
 		};
 		2B73E87A1D188FC400B5C178 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F670C9177F27E6BB27C03E0D /* Pods-Kapture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kapture/Info.plist;
@@ -419,6 +636,7 @@
 		};
 		2B73E87C1D188FC400B5C178 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E48CFBB805F5C4676CF7661 /* Pods-KaptureTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KaptureTests/Info.plist;
@@ -431,6 +649,7 @@
 		};
 		2B73E87D1D188FC400B5C178 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F55E2A8F71AE6C07E60350 /* Pods-KaptureTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KaptureTests/Info.plist;
@@ -443,6 +662,7 @@
 		};
 		2B73E87F1D188FC400B5C178 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0701B64A4C8D28E6493DCE6 /* Pods-KaptureUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KaptureUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +674,7 @@
 		};
 		2B73E8801D188FC400B5C178 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0A1EDC9EC45A762E4ADC6A /* Pods-KaptureUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KaptureUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +703,7 @@
 				2B73E87A1D188FC400B5C178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B73E87B1D188FC400B5C178 /* Build configuration list for PBXNativeTarget "KaptureTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +712,7 @@
 				2B73E87D1D188FC400B5C178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B73E87E1D188FC400B5C178 /* Build configuration list for PBXNativeTarget "KaptureUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +721,7 @@
 				2B73E8801D188FC400B5C178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

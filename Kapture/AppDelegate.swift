@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Parse.initializeWithConfiguration(
+            ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "Kapture"
+                configuration.clientKey = "edltnltjltnijigfulhhbcibrhkeeffk"  // set to nil assuming you have not set clientKey
+                configuration.server = "https://kapture.herokuapp.com/parse"
+            })
+        )
+        // check if user is logged in.
+        if PFUser.currentUser() != nil {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            self.window?.rootViewController = storyboard.instantiateViewControllerWithIdentifier("HomeVC")
+        }
         return true
     }
 
