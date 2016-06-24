@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "f0b9523dacbecc5bd4e2aae496a9c8c2.png")!)
         let stringColorAttributes =
             [ NSForegroundColorAttributeName: UIColor.grayColor() ]
         usernameField.attributedPlaceholder = NSAttributedString(string: "Username", attributes: stringColorAttributes)

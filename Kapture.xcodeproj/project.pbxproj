@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B303C431D1B4ABC00223F96 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B303C421D1B4ABC00223F96 /* DetailsViewController.swift */; };
+		2B303C451D1B65BD00223F96 /* MyPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B303C441D1B65BD00223F96 /* MyPhotoCell.swift */; };
+		2B5183031D1DDF4600670AC3 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5183021D1DDF4600670AC3 /* HomeTabBarController.swift */; };
 		2B5AEFDE1D18BD2000F298B6 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5AEFDD1D18BD2000F298B6 /* CaptureViewController.swift */; };
 		2B73E8541D188FC300B5C178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8531D188FC300B5C178 /* AppDelegate.swift */; };
 		2B73E8561D188FC300B5C178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73E8551D188FC300B5C178 /* ViewController.swift */; };
@@ -45,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		2B303C421D1B4ABC00223F96 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		2B303C441D1B65BD00223F96 /* MyPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotoCell.swift; sourceTree = "<group>"; };
+		2B5183021D1DDF4600670AC3 /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		2B5AEFDD1D18BD2000F298B6 /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
 		2B73E8501D188FC300B5C178 /* Kapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B73E8531D188FC300B5C178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 				2B73E88B1D18A9A200B5C178 /* View Controllers */,
 				2B73E88C1D18A9B500B5C178 /* Views */,
 				2BB790FB1D19F7C8004194E6 /* Post.swift */,
+				2B5183021D1DDF4600670AC3 /* HomeTabBarController.swift */,
 				2B73E85A1D188FC300B5C178 /* Assets.xcassets */,
 				2B73E85C1D188FC300B5C178 /* LaunchScreen.storyboard */,
 				2B73E85F1D188FC300B5C178 /* Info.plist */,
@@ -175,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				2B73E8871D18A8B400B5C178 /* PhotoCell.swift */,
+				2B303C441D1B65BD00223F96 /* MyPhotoCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -466,8 +472,10 @@
 			files = (
 				2B73E88A1D18A99B00B5C178 /* ProfileViewController.swift in Sources */,
 				2B5AEFDE1D18BD2000F298B6 /* CaptureViewController.swift in Sources */,
+				2B5183031D1DDF4600670AC3 /* HomeTabBarController.swift in Sources */,
 				2B303C431D1B4ABC00223F96 /* DetailsViewController.swift in Sources */,
 				2B73E8821D18927900B5C178 /* LoginViewController.swift in Sources */,
+				2B303C451D1B65BD00223F96 /* MyPhotoCell.swift in Sources */,
 				2BB790FC1D19F7C8004194E6 /* Post.swift in Sources */,
 				2B73E8881D18A8B400B5C178 /* PhotoCell.swift in Sources */,
 				2B73E8561D188FC300B5C178 /* ViewController.swift in Sources */,

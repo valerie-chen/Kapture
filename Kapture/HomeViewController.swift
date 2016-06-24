@@ -24,6 +24,10 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         feedTableView.delegate = self
         makeQuery()
         
+        self.navigationController?.navigationBar.titleTextAttributes =
+            [NSForegroundColorAttributeName: UIColor.blackColor(),
+             NSFontAttributeName: UIFont(name: "Noteworthy-Light", size: 21)!]
+        
         // Initialize a UIRefreshControl
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(refreshControlAction(_:)), forControlEvents: UIControlEvents.ValueChanged)
@@ -48,7 +52,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         query.limit = loadLimit
         query.findObjectsInBackgroundWithBlock { (objects: [PFObject]?, error: NSError?) in
             if error == nil {
-                print("Successfully retrieved messages")
+                // print("Successfully retrieved messages")
                 if let objects = objects {
                     self.posts = objects
                     self.feedTableView.reloadData()
@@ -100,7 +104,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = feedTableView.dequeueReusableCellWithIdentifier("PhotoCell", forIndexPath: indexPath) as! PhotoCell
-        print("num: \(posts!.count), this: \(indexPath.row)\n")
+        // print("num: \(posts!.count), this: \(indexPath.row)\n")
         cell.gramPost = posts![indexPath.row]
 //        if let image = posts![indexPath.row]["media"] as? UIImage {
 //            cell.photoView.image = image

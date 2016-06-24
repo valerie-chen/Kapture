@@ -7,12 +7,37 @@
 //
 
 import UIKit
+import Parse
+import ParseUI
 
 class DetailsViewController: UIViewController {
 
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var timeStampLabel: UILabel!
+    @IBOutlet weak var photoView: PFImageView!
+    @IBOutlet weak var captionLabel: UILabel!
+    
+    var username: String = ""
+    var timeStamp: String = ""
+    var caption: String = ""
+    var photoViewTemp: PFFile?
+    
+    var gramPost: PFObject! {
+        didSet {
+            self.photoView.file = gramPost["media"] as? PFFile
+            self.photoView.loadInBackground()
+            self.usernameLabel.text = gramPost["author"].username
+            self.timeStampLabel.text = timeStamp
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.photoView.file = photoViewTemp
+        self.photoView.loadInBackground()
+        self.usernameLabel.text = username
+        self.captionLabel.text = caption
+        self.timeStampLabel.text = timeStamp
         // Do any additional setup after loading the view.
     }
 

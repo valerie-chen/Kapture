@@ -13,6 +13,7 @@ class CaptureViewController: UIViewController, UIImagePickerControllerDelegate, 
     @IBOutlet weak var choosePhotoButton: UIButton!
     @IBOutlet weak var photoView: UIImageView!
     @IBOutlet weak var captionField: UITextField!
+    @IBOutlet weak var captionView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,8 +40,11 @@ class CaptureViewController: UIViewController, UIImagePickerControllerDelegate, 
     }
     
     @IBAction func onShare(sender: AnyObject) {
-        Post.postUserImage(photoView.image, withCaption: captionField.text) { (success: Bool, error: NSError?) in
+        Post.postUserImage(photoView.image, withCaption: captionView.text) { (success: Bool, error: NSError?) in
             //redirect to home page
+            self.photoView.image = nil
+            self.photoView.reloadInputViews()
+            //self.performSegueWithIdentifier("returnHomeSegue", sender: nil)
             //perhaps a window pops up saying posted?
         }
     }
