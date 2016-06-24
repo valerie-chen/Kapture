@@ -48,9 +48,9 @@ This was the first time I've used a tab bar, and I had some trouble dealing with
 
 List an 3rd party libraries, icons, graphics, or other assets you used in your app.
 
-- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
-- [Parse]
-- [ParseUI]
+- [Parse](https://github.com/ParsePlatform/parse-server)
+- [ParseUI](https://github.com/ParsePlatform/ParseUI-iOS)
+- [DateTools](https://github.com/MatthewYork/DateTools) - Configures dates in the Facebook style (3 minutes ago, Just now, etc.)
 - icons courtesy of iconmonstr.com and downloadicons.net
 
 ## License
