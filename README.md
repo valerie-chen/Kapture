@@ -3,7 +3,7 @@ CodePath project #3 — my own version of Instagram
 
 Submitted by: Valerie Chen
 
-Time spent: XXXXXXXXXX hours spent in total
+Time spent: 30 hours spent in total
 
 ## User Stories
 
@@ -16,8 +16,8 @@ The following **required** functionality is complete:
 * [X] User can view the last 20 posts submitted to "Instagram"
 * [X] User can pull to refresh the last 20 posts submitted to "Instagram"
 * [X] User can load more posts once he or she reaches the bottom of the feed using infinite scrolling.
-* [ ] User can tap a post to view post details, including timestamp and caption. 
-* [ ] User can use a tab bar to switch between all "Instagram" posts and posts published only by the user.
+* [X] User can tap a post to view post details, including timestamp and caption. 
+* [X] User can use a tab bar to switch between all "Instagram" posts and posts published only by the user.
 
 The following **optional** features are implemented:
 * [ ] Show the username and creation time for each post
@@ -32,8 +32,7 @@ User Profiles:
 
 The following **additional** features are implemented:
 
-* [X] Release date and genres displayed
-* [X] Blurred poster makes up background image of display page
+
 
 ## Video Walkthrough
 
@@ -43,7 +42,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-XXXXX Describe any challenges encountered while building the app.
+This was the first time I've used a tab bar, and I had some trouble dealing with navigation between bars. PFQuery and uses of PFObject also caused some issues, mostly because it took me a while to understand what those things are and how they are structured.
 
 ## Credits
 
@@ -52,7 +51,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
 - [Parse]
 - [ParseUI]
-- tab bar icons courtesy of iconmonstr.com
+- icons courtesy of iconmonstr.com and downloadicons.net
 
 ## License
 
