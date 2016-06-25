@@ -9,6 +9,8 @@ target 'Kapture' do
 
     pod 'Parse'
     pod 'ParseUI'
+    pod 'DateTools'
+    pod 'MBProgressHUD'
 
   target 'KaptureTests' do
     inherit! :search_paths

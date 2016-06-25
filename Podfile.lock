@@ -1,5 +1,7 @@
 PODS:
   - Bolts/Tasks (1.7.0)
+  - DateTools (1.7.0)
+  - MBProgressHUD (0.9.2)
   - Parse (1.13.0):
     - Bolts/Tasks (~> 1.6)
   - ParseUI (1.2.0):
@@ -7,14 +9,18 @@ PODS:
     - Parse (~> 1.9)
 
 DEPENDENCIES:
+  - DateTools
+  - MBProgressHUD
   - Parse
   - ParseUI
 
 SPEC CHECKSUMS:
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
   ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
 
-PODFILE CHECKSUM: 4c119e111e55bd90f07ad3e972a5f4569057647d
+PODFILE CHECKSUM: 0dff5fb76b1e743774e16ce7ec3bdadf56f10519
 
 COCOAPODS: 1.0.1

@@ -9,11 +9,13 @@
 import UIKit
 import Parse
 import ParseUI
+import DateTools
 
 class ProfileViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIScrollViewDelegate {
     
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var myNavigationItem: UINavigationItem!
+    @IBOutlet weak var profilePicView: UIImageView!
     
     var isMoreDataLoading = false
     var loadLimit = 20
@@ -27,6 +29,12 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
         // self.title = PFUser.currentUser()?.username
         myNavigationItem.title = PFUser.currentUser()?.username
         makeQuery()
+        
+        profilePicView.layer.borderWidth = 1.0
+        profilePicView.layer.masksToBounds = false
+        profilePicView.layer.borderColor = UIColor.blueColor().CGColor
+        profilePicView.layer.cornerRadius = profilePicView.frame.size.width/2
+        profilePicView.clipsToBounds = true
         
         collectionView.reloadData()
         
@@ -102,7 +110,7 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         let totalwidth = collectionView.bounds.size.width;
-        let numberOfCellsPerRow = 2
+        let numberOfCellsPerRow = 3
         let dimensions = CGFloat(Int(totalwidth) / numberOfCellsPerRow)
         return CGSizeMake(dimensions, dimensions)
     }
@@ -124,7 +132,9 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
                 detailsController.username = user!.username! as String
                 //print(post["caption"])
                 detailsController.caption = post["caption"] as! String
-                detailsController.timeStamp = (post.createdAt?.description)!
+                let postDate = post.createdAt
+                let timeAgoDate = NSDate.timeAgoSinceDate(postDate)
+                detailsController.timeStamp = timeAgoDate //(post.createdAt?.description)!
                 detailsController.photoViewTemp = (cell.gramPost["media"] as? PFFile)!
                 collectionView.deselectItemAtIndexPath(indexPath, animated: true)
             }

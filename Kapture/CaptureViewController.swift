@@ -7,21 +7,24 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 class CaptureViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var choosePhotoButton: UIButton!
     @IBOutlet weak var photoView: UIImageView!
-    @IBOutlet weak var captionField: UITextField!
     @IBOutlet weak var captionView: UITextView!
+    @IBOutlet weak var captionField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         choosePhotoButton.layer.borderWidth = 1
         choosePhotoButton.layer.borderColor = UIColor.blackColor().CGColor
-        let stringColorAttributes =
-            [ NSForegroundColorAttributeName: UIColor.grayColor() ]
-        captionField.attributedPlaceholder = NSAttributedString(string: "Write a caption...", attributes: stringColorAttributes)
+        // let stringColorAttributes = [ NSForegroundColorAttributeName: UIColor.grayColor() ]
+        choosePhotoButton.layer.borderWidth = 3
+        captionView.layer.borderWidth = 1
+        captionView.layer.borderColor = UIColor.grayColor().CGColor
+        // captionField.attributedPlaceholder = NSAttributedString(string: "Write a caption...", attributes: stringColorAttributes)
         // Do any additional setup after loading the view.
     }
 
@@ -40,11 +43,15 @@ class CaptureViewController: UIViewController, UIImagePickerControllerDelegate, 
     }
     
     @IBAction func onShare(sender: AnyObject) {
+        MBProgressHUD.showHUDAddedTo(self.view, animated: true)
         Post.postUserImage(photoView.image, withCaption: captionView.text) { (success: Bool, error: NSError?) in
+            MBProgressHUD.hideHUDForView(self.view, animated: true)
             //redirect to home page
             self.photoView.image = nil
+            self.captionView.text = ""
             self.photoView.reloadInputViews()
-            //self.performSegueWithIdentifier("returnHomeSegue", sender: nil)
+            self.tabBarController?.selectedIndex = 0
+            // self.performSegueWithIdentifier("returnHomeSegue", sender: nil)
             //perhaps a window pops up saying posted?
         }
     }

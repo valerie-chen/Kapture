@@ -22,12 +22,14 @@ class PhotoCell: UITableViewCell {
             let user = gramPost["author"] as! PFUser
             self.userLabel.text = user.username! as String
             self.captionLabel.text = gramPost["caption"] as? String
+            self.captionLabel.sizeToFit()
             self.photoView.loadInBackground()
         }
     }
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         // Initialization code
     }
 
