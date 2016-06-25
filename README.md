@@ -30,6 +30,8 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://media.giphy.com/media/3oEjI0ytVZEWs1R960/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/3oEjI381JjfjadMa6k/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/l41YuuEPx2GFVfENa/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
