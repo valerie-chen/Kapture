@@ -21,22 +21,15 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [X] Show the username and creation time for each post
-* [ ] After the user submits a new post, show a progress HUD while the post is being uploaded to Parse
-User Profiles:
-  * [ ] Allow the logged in user to add a profile photo
-  * [ ] Display the profile photo with each post
-  * [ ] Tapping on a post's username or profile photo goes to that user's profile page
-* [ ] User can comment on a post and see all comments for each post in the post details screen.
-* [ ] User can like a post and see number of likes for each post in the post details screen.
-* [ ] Run your app on your phone and use the camera to take the photo
-
-The following **additional** features are implemented:
+* [X] After the user submits a new post, show a progress HUD while the post is being uploaded to Parse
 
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
+<img src='https://media.giphy.com/media/3oEjI0ytVZEWs1R960/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
