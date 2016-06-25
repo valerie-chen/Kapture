@@ -30,7 +30,9 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://media.giphy.com/media/3oEjI0ytVZEWs1R960/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 <img src='https://media.giphy.com/media/3oEjI381JjfjadMa6k/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 <img src='https://media.giphy.com/media/l41YuuEPx2GFVfENa/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
@@ -46,6 +48,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 - [Parse](https://github.com/ParsePlatform/parse-server)
 - [ParseUI](https://github.com/ParsePlatform/ParseUI-iOS)
 - [DateTools](https://github.com/MatthewYork/DateTools) - Configures dates in the Facebook style (3 minutes ago, Just now, etc.)
+- [MBProgressHUD](https://github.com/jdg/MBProgressHUD) - Progress bar
 - icons courtesy of iconmonstr.com and downloadicons.net
 
 ## License
